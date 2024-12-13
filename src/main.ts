@@ -40,6 +40,7 @@ if (app) {
     </p>
   </div>
   <h2>Hello world we're alive!</h2>
+  <p>testing testing</p>
   `;
 } else {
   console.log('error getting html');
