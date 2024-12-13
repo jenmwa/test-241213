@@ -39,6 +39,7 @@ if (app) {
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
+  <h2>Hello world we're alive!</h2>
   `;
 } else {
   console.log('error getting html');
