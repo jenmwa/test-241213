@@ -1,7 +1,7 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import './style.css';
+import typescriptLogo from './typescript.svg';
+import viteLogo from '/vite.svg';
+import { setupCounter } from './counter.ts';
 
 // document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 //   <div>
@@ -39,9 +39,9 @@ if (app) {
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
-  `
+  `;
 } else {
-  console.log('error getting html')
+  console.log('error getting html');
 }
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+setupCounter(document.querySelector<HTMLButtonElement>('#counter')!);
